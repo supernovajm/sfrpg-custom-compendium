@@ -3,7 +3,7 @@
 			"title": "SFRPG Races Development",
 			"description": "Custom Starfinder items",
 			"author": "Jeff McCallon",
-			"version": "1.0.0",
+			"version": "1.0.1",
 			"systems": ["sfrpg"],
 			"minimumCoreVersion": "0.6.0",
 			"compatibleCoreVersion":"0.7.9",
