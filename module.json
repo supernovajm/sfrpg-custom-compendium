@@ -3,11 +3,11 @@
 			"title": "SFRPG Races Development",
 			"description": "Custom Starfinder items",
 			"author": "Jeff McCallon",
-			"version": "1.0.1",
+			"version": "1.0.2",
 			"systems": ["sfrpg"],
 			"minimumCoreVersion": "0.6.0",
 			"compatibleCoreVersion":"0.7.9",
-			"download":"https://github.com/supernovajm/sfrpg-custom-compendium/releases/download/v1.0.1/sfrpg-custom-compendium-1.0.1.zip",
+			"download":"https://github.com/supernovajm/sfrpg-custom-compendium/releases/download/latest/sfrpg-custom-compendium.zip",
 			"url":"https://github.com/supernovajm/sfrpg-custom-compendium",
 			"manifest":"https://github.com/supernovajm/sfrpg-custom-compendium/raw/main/module.json",
 			"packs": [
