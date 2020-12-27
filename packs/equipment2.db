@@ -1,0 +1,597 @@
+{
+  "_id": <_id>,
+  "name": <name>"Lashunta Ringwear I",
+  "permission": {
+    "default": 0,
+    "QKfICymYNdnzinV1": 3
+  },
+  "type": "equipment",
+  "data": {
+    "description": {
+      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">While this heavy armor of sculpted metal plates offers good protection to the wearer, its main purpose is to intimidate enemies. Often used for honor guards, military exercises, or parades, ceremonial plate is usually brightly colored or made of shining metal, with elaborate helmets.&nbsp;</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": <source>"Core Rulebook",
+    "type": "",
+    "quantity": 1,
+    "bulk": <bulk>"2",
+    "price": <price>415,
+    "level": <level>1,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "type": ""
+    },
+    "area": {
+      "value": null,
+      "units": "",
+      "shape": "",
+      "effect": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "additional": "",
+      "per": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "parts": [],
+      "effect": ""
+    },
+    "damage": {
+      "parts": []
+    },
+    "formula": "",
+    "save": {
+      "type": "",
+      "dc": null,
+      "descriptor": ""
+    },
+    "descriptors": [],
+    "armor": {
+      "type": <type>"heavy",
+      "eac": <eac>2,
+      "kac": <kac>4,
+      "dex": <dex>2,
+      "acp": <acp>-2,
+      "speedAdjust": <speedadjust>-5,
+      "upgradeSlots": <upgradeSlots>0,
+      "upgrades": []
+    },
+    "strength": 0,
+    "speed": "",
+    "size": "",
+    "reach": "",
+    "weaponSlots": 0,
+    "proficient": true,
+    "abilityMods": {
+      "parts": []
+    }
+  },
+  "flags": {},
+  "img": "systems/sfrpg/icons/equipment/armor/lashunta-ringwear-1.jpg"
+}
+{
+  "name": "Telepathic Dampener",
+  "permission": {
+    "default": 0,
+    "fBSp8kiWWeNwQKW7": 3
+  },
+  "type": "upgrade",
+  "data": {
+    "description": {
+      "value": "<p>You gain a +2 circumstance bonus to saves against mind-affecting effects, but you can&rsquo;t use or receive telepathic communication.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Near Space pg. 153",
+    "type": "",
+    "quantity": 1,
+    "bulk": "L",
+    "price": 2700,
+    "level": 5,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "capacity": {
+      "value": 0,
+      "max": 0
+    },
+    "usage": {
+      "value": 0,
+      "per": ""
+    },
+    "slots": 1,
+    "armorType": "any",
+    "damage": {
+      "parts": []
+    },
+    "abilityMods": {
+      "parts": []
+    }
+  },
+  "flags": {},
+  "img": "icons/svg/mystery-man.svg",
+  "_id": "0RnTe008OWZNncYQ"
+}
+{
+  "_id": "0TYyIP5UyjeroB1W",
+  "name": "Plasma doshko, red star",
+  "permission": {
+    "default": 0
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>The plasma versions of these traditional vesk weapons use the same popular naming convention as other plasma weapons.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Core Rulebook, P. 172",
+    "type": "",
+    "quantity": 1,
+    "bulk": "1",
+    "price": 4650,
+    "level": 6,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "type": ""
+    },
+    "area": {
+      "value": null,
+      "units": null,
+      "shape": "",
+      "effect": ""
+    },
+    "range": {
+      "value": null,
+      "units": null,
+      "additional": "",
+      "per": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "parts": [],
+      "effect": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10 + @mod",
+          "electricity"
+        ],
+        [
+          "",
+          "fire"
+        ]
+      ]
+    },
+    "formula": "",
+    "save": {
+      "type": "",
+      "dc": null,
+      "descriptor": "negate"
+    },
+    "descriptors": [],
+    "capacity": {
+      "value": 20,
+      "max": 20
+    },
+    "usage": {
+      "value": 2,
+      "per": "minute"
+    },
+    "weaponType": "advancedM",
+    "special": "",
+    "properties": {
+      "one": false,
+      "two": true,
+      "amm": false,
+      "analog": false,
+      "archaic": false,
+      "automatic": false,
+      "blast": false,
+      "block": false,
+      "boost": false,
+      "bright": false,
+      "disarm": false,
+      "entangle": false,
+      "explode": false,
+      "injection": false,
+      "line": false,
+      "nonlethal": false,
+      "operative": false,
+      "penetrating": false,
+      "powered": true,
+      "qreload": false,
+      "reach": false,
+      "sniper": false,
+      "stun": false,
+      "thrown": false,
+      "trip": false,
+      "unwieldy": false
+    },
+    "proficient": true,
+    "fusions": []
+  },
+  "sort": 100001,
+  "flags": {},
+  "img": "icons/svg/mystery-man.svg"
+}
+{
+  "_id": "0dNN9t3fqbC8moEM",
+  "name": "Plasma pistol, white star",
+  "permission": {
+    "default": 0
+  },
+  "type": "weapon",
+  "data": {
+    "description": {
+      "value": "<p>Plasma pistols fire a line of ionized plasma out to a relatively short range. The plasma can continue to burn after contact.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Core Rulebook, P. 173",
+    "type": "",
+    "quantity": 1,
+    "bulk": "L",
+    "price": 107500,
+    "level": 15,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "activation": {
+      "type": "none",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "type": ""
+    },
+    "area": {
+      "value": 30,
+      "units": "ft",
+      "shape": "line",
+      "effect": ""
+    },
+    "range": {
+      "value": null,
+      "units": "none",
+      "additional": "",
+      "per": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "ability": "dex",
+    "actionType": "rwak",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "parts": [],
+      "effect": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "electricity"
+        ],
+        [
+          "",
+          "fire"
+        ]
+      ]
+    },
+    "formula": "",
+    "save": {
+      "type": "",
+      "dc": null,
+      "descriptor": "negate"
+    },
+    "descriptors": [],
+    "capacity": {
+      "value": 100,
+      "max": 100
+    },
+    "usage": {
+      "value": 20,
+      "per": "round"
+    },
+    "weaponType": "smallA",
+    "special": "",
+    "properties": {
+      "one": true,
+      "two": false,
+      "amm": false,
+      "analog": false,
+      "archaic": false,
+      "automatic": false,
+      "blast": false,
+      "block": false,
+      "boost": false,
+      "bright": false,
+      "disarm": false,
+      "entangle": false,
+      "explode": false,
+      "injection": false,
+      "line": true,
+      "nonlethal": false,
+      "operative": false,
+      "penetrating": false,
+      "powered": false,
+      "qreload": false,
+      "reach": false,
+      "sniper": false,
+      "stun": false,
+      "thrown": false,
+      "trip": false,
+      "unwieldy": true
+    },
+    "proficient": true,
+    "fusions": []
+  },
+  "sort": 1500000,
+  "flags": {},
+  "img": "systems/sfrpg/icons/equipment/weapons/plasma-pistol-white-star.jpg"
+}
+{
+  "name": "Tactical Shield, Field",
+  "permission": {
+    "default": 0,
+    "umHu8DFnCrMQVZ37": 3
+  },
+  "type": "equipment",
+  "data": {
+    "description": {
+      "value": "<p><span id=\"ctl00_MainContent_DetailedOutput\">A tactical shield is a small, mobile defensive plate you carry on one limb and can maneuver to intercept attacks against you. A hand wielding a tactical shield can still hold another object and be used to reload weapons, but it cannot wield weapons or other shields. You can use a tactical shield to make unarmed attacks that do not count as archaic.<br></span></p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">When you wield a basic tactical shield, as a move action you can align the shield to grant you greater protection against one opponent you are observing, which grants you a +1 shield bonus to AC against attacks from that opponent until the beginning of your next turn. The field and advanced tactical shields grant you a +1 shield bonus to AC when wielded, though this does not increase when aligned against a target. The elite tactical shield increases the shield bonus when aligned against a target to +2, and the paragon tactical shield increases this to +3.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Character Operation Manual",
+    "type": "",
+    "quantity": 1,
+    "bulk": "1",
+    "price": 2500,
+    "level": 5,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "type": ""
+    },
+    "area": {
+      "value": null,
+      "units": "",
+      "shape": "",
+      "effect": ""
+    },
+    "range": {
+      "value": null,
+      "units": "",
+      "additional": "",
+      "per": ""
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "parts": [],
+      "effect": ""
+    },
+    "damage": {
+      "parts": []
+    },
+    "formula": "",
+    "save": {
+      "type": "",
+      "dc": null,
+      "descriptor": ""
+    },
+    "descriptors": [],
+    "armor": {
+      "type": "shield",
+      "eac": 1,
+      "kac": 1,
+      "dex": 0,
+      "acp": 0,
+      "speedAdjust": 0,
+      "upgradeSlots": 1,
+      "upgrades": []
+    },
+    "strength": 0,
+    "speed": "",
+    "size": "",
+    "reach": "",
+    "weaponSlots": 0,
+    "proficient": true
+  },
+  "flags": {},
+  "img": "systems/sfrpg/icons/equipment/armor/tactical-shield-field.jpg",
+  "_id": "16rv6RPagMF3m7xp"
+}
+{
+  "name": "Climate Control Unit",
+  "permission": {
+    "default": 0,
+    "fBSp8kiWWeNwQKW7": 3
+  },
+  "type": "upgrade",
+  "data": {
+    "description": {
+      "value": "<p>This upgrade is used primarily on long expeditions into hostile environments. You treat your armor as 3 levels higher for the purposes of determining the duration of its environmental protections and resisting radiation.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Near Space pg. 153",
+    "type": "",
+    "quantity": 1,
+    "bulk": "L",
+    "price": 1950,
+    "level": 4,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "capacity": {
+      "value": 0,
+      "max": 0
+    },
+    "usage": {
+      "value": 0,
+      "per": ""
+    },
+    "slots": 1,
+    "armorType": "any",
+    "damage": {
+      "parts": []
+    },
+    "abilityMods": {
+      "parts": []
+    }
+  },
+  "flags": {},
+  "img": "icons/svg/mystery-man.svg",
+  "_id": "1gkOB7M8U1wIaT46"
+}
+{
+  "name": "Analgesic, Tier 3",
+  "permission": {
+    "default": 0,
+    "umHu8DFnCrMQVZ37": 3
+  },
+  "type": "consumable",
+  "data": {
+    "description": {
+      "value": "<p><span id=\"ctl00_MainContent_DataListOtherItems_ctl00_LabelName\">An analgesic deadens sensory input and is used by medical professionals to reduce sensations of pain. If you take or are injected with an analgesic, you are flat-footed for 1 round per tier of the medicinal. You also gain a bonus (equal to the analgesic&rsquo;s tier) to saving throws against pain effects for 10 minutes per tier of the medicinal.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "Core Rulebook",
+    "type": "",
+    "quantity": 1,
+    "bulk": "L",
+    "price": 15000,
+    "level": 10,
+    "attuned": false,
+    "equipped": false,
+    "identified": true,
+    "activation": {
+      "type": "move",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "30 minutes",
+      "units": ""
+    },
+    "target": {
+      "value": "",
+      "type": ""
+    },
+    "area": {
+      "value": null,
+      "units": null,
+      "shape": "",
+      "effect": ""
+    },
+    "range": {
+      "value": null,
+      "units": null,
+      "additional": "",
+      "per": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": "charges",
+      "autoUse": true,
+      "autoDestroy": true
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "parts": [],
+      "effect": ""
+    },
+    "damage": {
+      "parts": []
+    },
+    "formula": "",
+    "save": {
+      "type": "",
+      "dc": null,
+      "descriptor": "negate"
+    },
+    "descriptors": [],
+    "consumableType": "medicne"
+  },
+  "flags": {},
+  "img": "systems/sfrpg/icons/equipment/goods/analgesic-tier-3.jpg",
+  "_id": "29UEZD7GTrFUw2rh"
+}

@@ -1,0 +1,55 @@
+{
+			"name": "sfrpg-races-dev",
+			"title": "SFRPG Races Development",
+			"description": "Custom Starfinder items",
+			"author": "Jeff McCallon",
+			"version": "1.0.0",
+			"systems": ["sfrpg"],
+			"minimumCoreVersion": "0.6.0",
+			"compatibleCoreVersion":"0.7.6",
+			"packs": [
+                        {
+                            "name": "sfrpg-races-dev",
+                            "label": "Custom Races",
+                            "path": "./packs/races2.db",
+                            "entity": "Item"
+                        },
+                        {
+                            "name": "sfrpg-equipment-dev",
+                            "label": "Custom Equipment",
+                            "path": "./packs/equipment.db",
+                            "entity": "Item"
+                        },
+			{
+			    "name": "sfrpg-racialfeats-dev",
+			    "label": "Custom Racial Abilities",
+			    "path": "./packs/custom-racial-abilities.db",
+			    "entity": "Item"
+			},
+			{
+			    "name": "sfrpg-npcs-dev",
+			    "label": "Custom NPCs",
+			    "path": "./packs/custom-npcs.db",
+			    "entity": "Actor"
+			},
+			{
+			    "name": "sfrpg-feats-dev",
+			    "label": "Custom Feats",
+			    "path": "./packs/custom-feats.db",
+			    "entity": "Item"
+			},
+			{
+			    "name": "sfrpg-equipment-dev",
+			    "label": "Custom Equipment",
+			    "path": "./packs/custom-equipment.db",
+			    "entity": "Item"
+			},
+			{
+			    "name": "sfrpg-classfeats-dev",
+			    "label": "Custom Class Features",
+			    "path": "./packs/custom-class-features.db",
+			    "entity": "Item"
+			}
+
+					]
+		  }
